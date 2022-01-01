@@ -1,0 +1,25 @@
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 150px;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selectedworks-item{
+    margin-left: 6px;
+}
+
+.workstitle{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.worksdescription{
+    padding-top: 20px;
+}

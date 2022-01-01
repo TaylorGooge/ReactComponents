@@ -1,0 +1,15 @@
+.carditems {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+
+    
+  }
+
+  .carditem{
+    margin: 20px;
+    flex-basis: 25%;
+  }
+  

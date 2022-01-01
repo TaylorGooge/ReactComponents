@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route , Routes} from "react-router-dom";
+import { HomePage } from './Components/Pages/HomePage'
+import { AboutPage } from "./Components/Pages/AboutPage"
+import { PortfolioPage } from "./Components/Pages/PortfolioPage"
+import {ContactPage} from "./Components/Pages/ContactPage"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element = {<HomePage/>} /> 
+      <Route path='/about' element = {<AboutPage/>} /> 
+      <Route path ='/portfolio' element = {<PortfolioPage/>} />
+      <Route path ='/contact' element = {<ContactPage/>} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -1,0 +1,19 @@
+.maindiv{
+    padding:20px;
+    display: flex;
+    flex-direction: row
+}
+
+.childdiv{
+    padding: 100px;
+}
+
+.contactimg{
+    padding: 6px;
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
